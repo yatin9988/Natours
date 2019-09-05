@@ -1,0 +1,28 @@
+.heading-primary{
+    color: $color-white;
+    text-transform: uppercase;
+    
+    &--main{
+    display: block;
+    font-size: 8rem;
+    font-weight: 300;
+    letter-spacing: 3.5rem;
+    animation-name: lefty;
+    animation-duration: 2s;
+    backface-visibility: hidden;
+   }
+
+    &--sub{
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.7rem;
+    animation-name: righty;
+    animation-duration: 2s;
+    /*apply this property wherever there is a glitch during animation on the element
+    undergoing animation*/
+    backface-visibility: hidden;
+    margin-bottom: 4rem;
+  }
+}
+
