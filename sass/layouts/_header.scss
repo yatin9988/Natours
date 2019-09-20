@@ -19,11 +19,13 @@
    }
     
     &__text-box{
+    backface-visibility: hidden;    
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-47%,-50%);
+    transform: translate(-48%,-50%);
     text-align: center;
+    position: relative;    
    }
 }
 

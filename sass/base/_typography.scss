@@ -5,7 +5,7 @@
     &--main{
     display: block;
     font-size: 8rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 3.5rem;
     animation-name: lefty;
     animation-duration: 2s;
@@ -22,7 +22,7 @@
     /*apply this property wherever there is a glitch during animation on the element
     undergoing animation*/
     backface-visibility: hidden;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
 }
 
